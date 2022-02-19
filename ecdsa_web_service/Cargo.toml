@@ -1,0 +1,12 @@
+[package]
+name = "ecdsa_sign_verify_web_service"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+p256="0.9.0"
+hex="0.4.3"
+rand_core="0.6.3"
+rocket = "0.5.0-rc.1"

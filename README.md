@@ -6,7 +6,7 @@
 
 Voronoi uses Substrate which is a next-generation framework for blockchain innovation 🚀.
 
-See ecdsa_web_service for code details. State: under heavy development.
+See /frame/voronoi_ecdsa for code details. State: under heavy development.
 
 ## Trying it out
 

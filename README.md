@@ -8,20 +8,27 @@ Voronoi uses Substrate which is a next-generation framework for blockchain innov
 
 See /frame/voronoi_ecdsa for code details. State: under heavy development.
 
-ToDo list:
+## ToDo list:
 - [X] Initiating project, creating draft topologies
 - [x] Create beta plans and repositories
 - [X] Implement the core of ECDSA signing and verification (non-threshold for now)
+- [ ] VRNC and ECDSA signing glue
+- [ ] VRNC with logic (voting, time lock, etc)
+- [ ] VRNC for balances and logic for deduction
 - [ ] Indepth tests with Rust X Solidity ECDSA signing logic
 - [ ] Improve how private keys are stored on nodes
-- [ ] HTTPS API for sign requests (ongoing)
-- [ ] HTTPS API to check signatures and balances
-- [ ] VRN token for balances and logic for deduction
-- [ ] HTTPS API and VRN token glue
-- [ ] Voronoi public keys storage
+- [ ] API for sign requests (ongoing)
+- [ ] API to check signatures and balances
+- [ ] API and VRNC glue
+- [ ] API for listing pubkeys
+- [ ] API posts to Twitter/Github/Etc.
+- [ ] VRN Public key distribution
+- [ ] VRN public keys storage
 - [ ] Frontend that connects with polkadotjs or metamask
 
-
+## Security considerations
+- We are not using threshold-ECDSA for now, but plan for later
+- Recommendation system for nodes so 
 
 ## Trying it out
 
